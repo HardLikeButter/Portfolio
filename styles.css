@@ -419,7 +419,6 @@ header {
 
 .portfolio__item {
     background: var(--clr-accent);
-    fit
     overflow: hidden;
 }
 
