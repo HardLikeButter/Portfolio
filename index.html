@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/01481964e9.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@300;400;700&family=Titillium+Web:wght@200;300;400;900&display=swap" 
+    rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="My logo" width="100">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#services">My Services</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#work">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Bryan Norman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/butter1.jpg" alt="My Profile Pic" class="intro__img" width="">
+    </section>
+
+    <!-- My Services --> 
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+
+            <!-- One -->
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum beatae pariatur iste eaque, inventore unde illum exercitationem dolor ullam quam explicabo? Et quam harum nam rerum veritatis recusandae! Animi.</p>
+            </div>
+
+            <!-- Two -->
+            <div class="service">
+                <h3>E-commerce</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum beatae pariatur iste eaque, inventore unde illum exercitationem dolor ullam quam explicabo? Et quam harum nam rerum veritatis recusandae! Animi.</p>
+            </div>
+
+            <!-- Three -->
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum beatae pariatur iste eaque, inventore unde illum exercitationem dolor ullam quam explicabo? Et quam harum nam rerum veritatis recusandae! Animi.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section> 
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer based out of Akron, OH</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui deserunt aut dignissimos modi illum cupiditate earum, nobis eaque libero tempore quo eius aperiam mollitia velit! Explicabo eius perspiciatis sit? Quos fugit commodi dolorum eos quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui deserunt aut dignissimos modi illum cupiditate earum, nobis eaque libero tempore quo eius aperiam mollitia velit! Explicabo eius perspiciatis sit? Quos fugit commodi dolorum eos quibusdam.</p>
+        </div>
+
+        <img src="img/butter1.jpg" alt="My Profile Image" class="about-me__img">
+        
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+    
+            <!-- Item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 07 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+
+            <!-- Item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/logo.png" alt="project1" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:bryan.devnorman@gmail.com" class="footer__link">bryan.devnorman@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/your-work" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/HardLikeButter/Gunship_prac" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
