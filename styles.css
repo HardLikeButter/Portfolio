@@ -376,6 +376,13 @@ header {
 }
 
 
+.about-me__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
 .answer-one,
 .answer-two {
     height: 0;
@@ -412,6 +419,16 @@ header {
           0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
 
+@media (min-width: 800px) {
+    .about-me__body {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 5em;
+    }
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -442,6 +459,8 @@ header {
         position: relative;
         z-index: 2; 
     }
+
+
 }
 
 
