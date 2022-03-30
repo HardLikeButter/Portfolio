@@ -554,11 +554,13 @@ header {
 
 .socail-list__item {
     margin: 0 .5em;
+    font-size: 3.1rem;
 }
 
 
 .social-list__link {
     padding: .5em;
+    font-size: 2rem;
 }
 
 
