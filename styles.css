@@ -433,6 +433,11 @@ header {
     box-shadow: var(--bs);
 }
 
+.about-me__body {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
 
 
 @media (min-width: 600px) {
