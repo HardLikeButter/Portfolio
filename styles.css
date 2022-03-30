@@ -321,7 +321,6 @@ header {
     background-blend-mode: multiply;
     color: var(--clr-light);
     text-align: center;
-    border: 2px solid yellow;
 }
 
 .section__title--services {
@@ -347,17 +346,15 @@ header {
 
 
 .service {
-    width: 50%;
-    /* max-width: 555px; */
+    max-width: 500px;
     margin: 0 auto;
-    /* border: 2px solid blue; */
+}
+
+.service:first-child {
+    margin-bottom: 3em;
 }
 
 
-
-.riddle-one {
-    padding-bottom: 1.55em;
-}
 
 
 
@@ -401,10 +398,24 @@ header {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+
     }
 
-    .service + .service {
-        margin-left: 1em;
+
+    .service {
+        width: 50%;
+    }
+
+
+
+    .services {
+        margin-bottom: 0;
+       
+    }
+
+
+    .riddle-one {
+        padding-bottom: 1.55em;
     }
 }
 
